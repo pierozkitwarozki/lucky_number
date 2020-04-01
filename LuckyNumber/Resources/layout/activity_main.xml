@@ -1,0 +1,44 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:padding="20dp">
+    <TextView
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberTextView"
+        android:textSize="144sp"
+        android:gravity="center"
+        android:layout_margin="30dp" />
+    <TextView
+        android:text="Wybierz zakres od 1 do 10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rangeTextView"
+        android:gravity="center"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:max="10"
+        android:progress="2"/>
+    <Button
+        android:text="Losuj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>
